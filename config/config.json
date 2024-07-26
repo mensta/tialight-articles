@@ -1,0 +1,35 @@
+{
+  "site": {
+    "title": "ハニトーチキン",
+    "base_url": "https://tialight.com",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/images/favicon.ico",
+    "logo": "/images/hanichecki_logo.svg",
+    "logo_width": "147",
+    "logo_height": "38",
+    "logo_text": "ハニトーチキン"
+  },
+
+  "settings": {
+    "pagination": 10,
+    "summary_length": 100
+  },
+
+  "metadata": {
+    "meta_author": "HaniChecki",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "退屈な日常から抜け出したいと願っているのに、どうして動き出すことをためらうの？きっと出会うすべては素晴らしいと信じて。"
+  },
+
+  "params": {
+    "contact_form_action": "#",
+    "copyright": "Copyright © 2024 [ハニトーチキン](https://tialight.com)"
+  },
+
+  "contactinfo": {
+    "address": "355 S Grand Ave <br/> Los Angeles, CA 90071",
+    "email": "info@bookworm.org",
+    "phone": "+800 567 1234"
+  }
+}

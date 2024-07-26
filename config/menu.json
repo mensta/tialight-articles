@@ -1,0 +1,17 @@
+{
+  "main": [],
+  "footer": [
+    {
+      "name": "このサイトについて",
+      "url": "/about"
+    },
+    {
+      "name": "お問い合わせ",
+      "url": "/contact"
+    },
+    {
+      "name": "プライバシーポリシー",
+      "url": "/privacy-policy"
+    }
+  ]
+}
