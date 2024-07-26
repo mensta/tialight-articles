@@ -1,0 +1,15 @@
+{
+  "name": "tialight-articles",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "base:clone": "git clone https://github.com/mensta/my-first-astro.git astro",
+    "base:pull": "cd astro && git pull origin main",
+    "insert": "mkdir -p astro/public && cp -r posts/ astro/src/content/ && cp -r images/ astro/public/ && cp -r config/ astro/src/",
+    "dev": "cd astro && yarn install && npx astro dev",
+    "dev:first": "rm -rf astro && yarn base:clone && yarn insert && yarn dev"
+  },
+  "repository": "https://github.com/mensta/tialight-articles",
+  "author": "yep",
+  "license": "MIT"
+}
