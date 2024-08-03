@@ -5,7 +5,7 @@
   "scripts": {
     "base:clone": "git clone https://github.com/mensta/my-first-astro.git astro",
     "base:pull": "cd astro && git pull origin main",
-    "insert": "mkdir -p astro/public && cp -r posts/ astro/src/content/ && cp -r images/ astro/public/ && cp -r config/ astro/src/ && cp -r pages/ astro/src/content/",
+    "insert": "mkdir -p astro/src/assets && cp -r posts/ astro/src/content/ && cp -r images/ astro/src/assets/ && cp -r config/ astro/src/ && cp -r pages/ astro/src/content/",
     "dev": "cd astro && yarn install && npx astro dev",
     "dev:first": "rm -rf astro && yarn base:clone && yarn insert && yarn dev",
     "build": "cd astro && yarn install && npx astro build",
