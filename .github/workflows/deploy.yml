@@ -12,6 +12,16 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
+      - name: Cache Astro assets
+        uses: actions/cache@v4
+        with:
+          path: |
+            node_modules
+            node_modules/.astro/assets
+          key: ${{ runner.OS }}-node-astro-assets-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.OS }}-node-astro-assets-
+
       - name: Install Dependencies
         run: npm install
 
