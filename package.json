@@ -9,7 +9,7 @@
     "dev": "cd astro && yarn install && npx astro dev",
     "dev:first": "rm -rf astro && yarn base:clone && yarn insert && yarn dev",
     "build": "cd astro && yarn install && npx astro build",
-    "build:first": "rm -rf astro && yarn base:clone && yarn insert && yarn build"
+    "build:first": "node dev/bak-cache && rm -rf astro && yarn base:clone && node dev/restore-cache && yarn insert && yarn build"
   },
   "repository": "https://github.com/mensta/tialight-articles",
   "author": "yep",
