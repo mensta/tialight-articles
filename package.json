@@ -1,6 +1,6 @@
 {
   "name": "tialight-articles",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "main": "index.js",
   "scripts": {
     "base:clone": "git clone https://github.com/mensta/my-first-astro.git astro",
